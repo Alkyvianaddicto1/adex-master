@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/form.css">
+
+
+<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+<!-- 
+  - google font link
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="sub__section">
+    <div class="text_section">
+      <h1 class="header">Hello esteemed customer</h1>
+      <P>Ensure to you enter your personal data
+        and start your journey with us
+      </P>
+    </div>
+  </div>
+  <div class="form_section">
+    <form action="/submit" method="POST" id="user-form"> 
+      <div class="input-group">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" required>
+    
+    </div>
+    <div class="input-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" required>
+        <i class="fas fa-user"></i>
+    </div>
+    <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    
+    </div>
+    <div class="input-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" maxlength="" required>
+    </div>
+      <button type="submit">submit </button>
+    </form>
+  </div>
+
+</div>
+  
+<script src="/assets/js/form.js"></script>
+  
+</body>
+</html>
